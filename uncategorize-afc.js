@@ -7,8 +7,8 @@ const mysql = require('mysql');
 const util = require('util');
 
 const credentials = require('./credentials'); // Load credentials from config.
-const apiUrl = 'https://en.wikipedia.org/w/api.php';
-const database = 'enwiki_p';
+const apiUrl = 'https://zh.wikipedia.org/w/api.php';
+const database = 'zhwiki_p';
 const editSummary = 'Task 3: Disable the categories on this page while it is still a draft, per [[WP:DRAFTNOCAT]]/[[WP:USERNOCAT]]';
 
 /**
